@@ -18,48 +18,26 @@ Currently pursuing an M.S. in Artificial Intelligence
 
 ## 🚀 Projects
 
-### 🧠 USMLE-RAG-Chatbot  
-End-to-end RAG pipeline using Hugging Face + Pinecone (~40k embeddings).
-
-- Built custom chunking + similarity threshold strategies  
-- Benchmarked retrieval accuracy, hallucination rate, and response faithfulness  
-- Evaluated 100+ medical queries with latency + qualitative error analysis  
-- Focused on grounding and output reliability in high-stakes domain  
-
-This project emphasizes LLM evaluation and system reliability.
-
----
-
-### 🔧 GPT-From-Scratch  
-Implemented a GPT-style transformer in PyTorch from first principles.
-
-- Self-attention, positional encoding, causal masking, decoding  
-- Analyzed convergence behavior and failure modes  
-- Explored architectural tradeoffs and performance implications  
-
-Built to deeply understand transformer internals and evaluation behavior.
-
----
-
-### 🤖 Real-Time Multi-Agent Emergency Response Assistant  
+### 🧠 Real-Time Multi-Agent Emergency Response Assistant
 Multi-agent AI system for real-time emergency guidance.
 
-- Architected triage, instruction, and calming agents  
-- Designed structured response formatting + real-time routing logic  
-- Focused on system design, orchestration, and agent collaboration  
+- Designed triage, instruction, and calming agents
+- Implemented structured response routing
+- Focused on orchestration, safety, and reliability in high-stakes environments
 
-Demonstrates multi-agent system thinking and AI orchestration.
+**Emphasis:** Agent collaboration, system design, production thinking
 
 ---
 
-### 📦 E-Commerce Recommendation System  
-Collaborative filtering + matrix factorization using PySpark and Surprise.
+### 🤖 Code-Mentor — Adaptive AI Coding Assistant
+Emotion-aware coding assistant with dynamic explanation modes.
 
-- Implemented model training + validation workflows  
-- Evaluated performance tradeoffs across metrics and data splits  
-- Designed scalable experimentation pipelines  
+- Sentiment detection + skill estimation
+- AST-based code complexity analysis
+- Static linting integration (Ruff)
+- Adaptive prompt engineering
 
-Shows applied ML system design and evaluation rigor.
+**Emphasis:** Developer tooling + adaptive AI feedback
 
 ---
 
