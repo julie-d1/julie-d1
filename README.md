@@ -9,7 +9,7 @@ Currently pursuing an M.S. in Artificial Intelligence
 
 - Retrieval-Augmented Generation (RAG) systems
 - LLM evaluation & hallucination analysis
-- Embeddings and vector search (Pinecone)
+- Embeddings and vector search 
 - Transformer architectures from first principles
 - Model reliability, latency profiling, and inference pipelines
 - Designing ML systems beyond notebooks
