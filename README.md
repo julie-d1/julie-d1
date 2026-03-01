@@ -94,5 +94,6 @@ Deepening expertise in:
 
 Open to AI / ML Engineering roles and research opportunities.
 
-- LinkedIn: [https://www.linkedin.com/in/YOUR-LINK](https://www.linkedin.com/in/julisadelfin/) 
-- Email: jdelfing@depaul.edu
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Julisa%20Delfin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julisadelfin/)
+
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jdelfing@depaul.edu)
