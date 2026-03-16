@@ -1,59 +1,106 @@
-# Julisa Delfin
+# 👋 Hi, I'm Julisa Delfin
 
-M.S. in Data Science (2025)  
-Currently pursuing an M.S. in Artificial Intelligence  
+**AI / ML Systems Engineer**
+
+M.S. Data Science (DePaul University, 2025)
+
+Currently pursuing an **M.S. in Artificial Intelligence**
+
+I build end-to-end machine learning systems combining **LLMs, retrieval pipelines, and distributed ML infrastructure**.
 
 ---
 
 ## 🔬 Current Focus
 
-- Retrieval-Augmented Generation (RAG) systems
-- LLM evaluation & hallucination analysis
-- Embeddings and vector search 
-- Transformer architectures from first principles
-- Model reliability, latency profiling, and inference pipelines
-- Designing ML systems beyond notebooks
+* Retrieval-Augmented Generation (RAG) systems
+* LLM evaluation, hallucination analysis, and safety
+* Embeddings and vector search architectures
+* Multi-agent AI systems
+* Transformer architectures and inference pipelines
+* Designing scalable ML systems beyond notebooks
 
 ---
 
-## 🚀 Projects
+## 🧠 Featured Projects
 
-### 🧠 Real-Time Multi-Agent Emergency Response Assistant
-Multi-agent AI system for real-time emergency guidance.
+### 🚑 Real-Time Multi-Agent Emergency Response Assistant
 
-- Designed triage, instruction, and calming agents
-- Implemented structured response routing
-- Focused on orchestration, safety, and reliability in high-stakes environments
+A multi-agent AI system that guides users through emergency situations in real time.
 
-**Emphasis:** Agent collaboration, system design, production thinking
+**Key Components**
 
----
+* Triage agent for emergency classification
+* Instruction agent for step-by-step response guidance
+* Calming agent for user stabilization
+* EMT report generator for structured incident summaries
 
-### 🤖 Code-Mentor — Adaptive AI Coding Assistant
-Emotion-aware coding assistant with dynamic explanation modes.
+**Highlights**
 
-- Sentiment detection + skill estimation
-- AST-based code complexity analysis
-- Static linting integration (Ruff)
-- Adaptive prompt engineering
+* Multi-agent orchestration architecture
+* Session memory and real-time reasoning
+* Evaluation pipeline for safety and response accuracy
 
-**Emphasis:** Developer tooling + adaptive AI feedback
+**Tech:** Python · LLM agents · prompt engineering · evaluation frameworks
 
 ---
 
-## 🛠 Technical Stack
+### 🩺 USMLE Retrieval-Augmented Generation Chatbot
 
-**LLMs & GenAI**  
-PyTorch · Hugging Face · LangChain · RAG · prompt engineering · model evaluation  
+An AI-powered study assistant that answers medical questions using **vector search + LLM reasoning**.
 
-**ML Systems**  
-Embeddings · vector search (Pinecone) · inference APIs · latency profiling  
+**Architecture Overview**
 
-**Data & ML**  
-Python · SQL · Spark · Hadoop · feature engineering · experimentation  
+```mermaid
+flowchart LR
+UserQuestion --> EmbeddingModel
+EmbeddingModel --> VectorDatabase
+VectorDatabase --> Retriever
+Retriever --> PromptBuilder
+PromptBuilder --> LLM
+LLM --> StructuredAnswer
+```
+**Highlights**
 
-**Cloud & Tools**  
-AWS · GCP · Git · Streamlit · Tableau  
+* End-to-end RAG pipeline
+* Semantic retrieval over medical documents
+* Structured prompt templates for grounded responses
+* Streamlit interface for interactive queries
+
+**Tech:** LangChain · Pinecone · Gemini · Hugging Face · Streamlit
+
+---
+
+### 🤖 CodeMentor — Adaptive AI Coding Assistant
+
+An AI-powered coding tutor that adapts explanations and debugging support to the user's skill level.
+
+**Capabilities**
+
+* Sentiment detection using DistilBERT
+* AST-based complexity analysis
+* Static linting integration (Ruff)
+* Adaptive prompting for explanations, hints, and fixes
+
+**Tech:** Python · NLP · AST analysis · prompt engineering · Gradio
+
+---
+
+## 🏗 ML Systems Stack
+
+**Languages:**
+Python · Java · JavaScript · SQL
+
+**AI / ML:**
+PyTorch · TensorFlow · Transformers · NLP · Deep Learning
+
+**ML Systems:**
+Embeddings · Vector Databases · Retrieval Pipelines · Model Evaluation
+
+**Data & Infrastructure:**
+Spark · Hadoop · Distributed Systems · Feature Engineering
+
+**Cloud & Tools:**
+AWS · Google Cloud Platform · Git · Streamlit
 
 ---
 
@@ -61,16 +108,16 @@ AWS · GCP · Git · Streamlit · Tableau
 
 Deepening expertise in:
 
-- LLM evaluation & safety
-- Production ML system reliability
-- Multi-agent architectures
-- Applied AI in high-stakes domains
+* LLM system reliability and evaluation
+* Production ML infrastructure
+* Multi-agent AI architectures
+* AI safety and model robustness
 
 ---
 
 ## 📫 Connect
 
-Open to AI / ML Engineering roles and research opportunities.
+Open to **AI / ML Engineering roles and research opportunities**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julisa%20Delfin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julisadelfin/)
 
