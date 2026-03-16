@@ -6,8 +6,6 @@ M.S. Data Science (DePaul University, 2025)
 
 Currently pursuing an **M.S. in Artificial Intelligence**
 
-I build end-to-end machine learning systems combining **LLMs, retrieval pipelines, and distributed ML infrastructure**.
-
 ---
 
 ## 🔬 Current Focus
