@@ -1,122 +1,68 @@
-# 👋 Hi, I'm Julisa Delfin
+# 👋 Hi, I'm Julisa Delfin 
+**AI / ML Systems Engineer** 
 
-**AI / ML Systems Engineer**
+*M.S. Data Science* & *M.S. in Artificial Intelligence*
 
-M.S. Data Science (DePaul University, 2025)
+## What I'm interested in
 
-Currently pursuing an **M.S. in Artificial Intelligence**
+- LLM evaluation and reliability
+- AI agents and multi-agent systems
+- Retrieval-Augmented Generation
+- Embeddings and vector search
+- Practical, human-centered AI tools
 
----
+## Featured projects
 
-## 🔬 Current Focus
+### 📚 [Spoiler-Safe Reading Companion](https://github.com/julie-d1/Reading-Companion)
 
-* Retrieval-Augmented Generation (RAG) systems
-* LLM evaluation, hallucination analysis, and safety
-* Embeddings and vector search architectures
-* Multi-agent AI systems
-* Transformer architectures and inference pipelines
-* Designing scalable ML systems beyond notebooks
+I love reading, but I often wish I had an easy way to catch up, look up fictional terms, or discuss a book without accidentally seeing spoilers. I built Reading Companion around those things I wanted as a reader.
 
----
+The user selects their current chapter, and every feature stays within that boundary. It can provide recaps, define words in context, visualize characters and places, and discuss the story without using information from later chapters.
 
-## 🧠 Featured Projects
+I also built a leak test that checks whether a recap includes characters introduced after the selected chapter.
 
-### 🚑 Real-Time Multi-Agent Emergency Response Assistant
+**Built with:** Python, Streamlit, OpenAI, Chroma, EPUB processing
 
-A multi-agent AI system that guides users through emergency situations in real time.
+### 🤖 [CodeMentor](https://github.com/julie-d1/Code-Mentor)
 
-**Key Components**
+An adaptive coding assistant that changes how it explains, hints at, or fixes Python code based on the user's experience level and sentiment.
 
-* Triage agent for emergency classification
-* Instruction agent for step-by-step response guidance
-* Calming agent for user stabilization
-* EMT report generator for structured incident summaries
+It combines DistilBERT sentiment detection, AST-based complexity analysis, Ruff static analysis, and adaptive prompting. The goal was to make coding support feel more useful to the person asking for help instead of giving everyone the same explanation.
 
-**Highlights**
+**Built with:** Python, PyTorch, DistilBERT, Ruff, Gradio
 
-* Multi-agent orchestration architecture
-* Session memory and real-time reasoning
-* Evaluation pipeline for safety and response accuracy
+### 🩺 [USMLE RAG Chatbot](https://github.com/julie-d1/USMLE-RAG-Chatbot)
 
-**Tech:** Python · LLM agents · prompt engineering · evaluation frameworks
+A study assistant that searches more than 900 pages of USMLE Step 1 material and answers questions using the most relevant retrieved content.
 
----
+This project gave me experience building a full RAG pipeline, working with medical embeddings, organizing a large document collection, and designing responses that stay grounded in retrieved material.
 
-### 🩺 USMLE Retrieval-Augmented Generation Chatbot
+**Built with:** LangChain, Pinecone, MedEmbed, Gemini, Streamlit
 
-An AI-powered study assistant that answers medical questions using **vector search + LLM reasoning**.
+### 🚑 [Real-Time Multi-Agent Emergency Response Assistant](https://github.com/julie-d1/Real-Time-Multi-Agent-Emergency-Response-Assistant)
 
-**Architecture Overview**
+A session-aware multi-agent system that explores how AI agents could coordinate during an emergency scenario.
 
-```mermaid
-flowchart LR
-UserQuestion --> EmbeddingModel
-EmbeddingModel --> VectorDatabase
-VectorDatabase --> Retriever
-Retriever --> PromptBuilder
-PromptBuilder --> LLM
-LLM --> StructuredAnswer
-```
-**Highlights**
+The system includes agents for triage, instructions, calming support, protocol retrieval, and incident reporting. I also created evaluation scenarios to test classification, step ordering, and safety behavior.
 
-* End-to-end RAG pipeline
-* Semantic retrieval over medical documents
-* Structured prompt templates for grounded responses
-* Streamlit interface for interactive queries
+This is an educational AI project and is not intended to replace emergency services or medical professionals.
 
-**Tech:** LangChain · Pinecone · Gemini · Hugging Face · Streamlit
+**Built with:** Python, Gemini, AI agents, evaluation pipelines, Cloud Run
 
----
+## Tools I work with
 
-### 🤖 CodeMentor — Adaptive AI Coding Assistant
+**Languages:** Python, SQL, Java, JavaScript
 
-An AI-powered coding tutor that adapts explanations and debugging support to the user's skill level.
+**AI and machine learning:** PyTorch, TensorFlow, Transformers, NLP, RAG, LLM evaluation
 
-**Capabilities**
+**Data and infrastructure:** Spark, Hadoop, Pandas, Pinecone, Chroma, BigQuery
 
-* Sentiment detection using DistilBERT
-* AST-based complexity analysis
-* Static linting integration (Ruff)
-* Adaptive prompting for explanations, hints, and fixes
+**Cloud and development:** AWS, Google Cloud, Git, Streamlit, Gradio, LangChain
 
-**Tech:** Python · NLP · AST analysis · prompt engineering · Gradio
+## Connect with me
 
----
-
-## 🏗 ML Systems Stack
-
-**Languages:**
-Python · Java · JavaScript · SQL
-
-**AI / ML:**
-PyTorch · TensorFlow · Transformers · NLP · Deep Learning
-
-**ML Systems:**
-Embeddings · Vector Databases · Retrieval Pipelines · Model Evaluation
-
-**Data & Infrastructure:**
-Spark · Hadoop · Distributed Systems · Feature Engineering
-
-**Cloud & Tools:**
-AWS · Google Cloud Platform · Git · Streamlit
-
----
-
-## 🎯 2026 Focus
-
-Deepening expertise in:
-
-* LLM system reliability and evaluation
-* Production ML infrastructure
-* Multi-agent AI architectures
-* AI safety and model robustness
-
----
-
-## 📫 Connect
-
-Open to **AI / ML Engineering roles and research opportunities**.
+I'm interested in AI and data science roles, research, and conversations about building useful and reliable AI systems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julisa%20Delfin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julisadelfin/)
 
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jdelfing@depaul.edu)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:delfinjulisa@gmail.com)
